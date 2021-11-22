@@ -1,0 +1,23 @@
+.Gallery{
+    h1{
+        color: lightblue;
+        text-align: center;
+    }
+}
+
+.Gallery-Bootstrap{
+    background: rgb(20, 190, 220);
+    padding: 20px 20px;
+
+    .Card{
+        background: none;
+        border-style: none;
+        box-shadow: 10px 15px 20px #ec27cc;
+        img{
+            width: 300px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}

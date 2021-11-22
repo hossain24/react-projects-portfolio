@@ -1,0 +1,67 @@
+$bg-color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+.Contact {
+    background: $bg-color;
+    height: 100%;
+    padding-top: 50px;
+
+    h1 {
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        padding: 20px;
+        text-align: center;
+        color: #1f8150;
+    }
+
+    .Image-Info {
+        padding-top: 20px;
+    }
+
+    .Contact-Info {
+        color: #1f8150;
+        text-align: center;
+        padding-top: 100px;
+
+        h2 {
+            font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        }
+
+        .form {
+            color: #1f8150;
+            padding: 20px;
+            font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+            .form-element {
+                width: 500px;
+                border-radius: 5px;
+                background: #3f3d56;
+                color: #fff;
+
+
+                @media screen and (max-width: 768px) {
+                    width: 300px;
+                }
+            }
+
+            .label {
+                font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+            }
+
+            .button {
+                height: 30px;
+                width: 100px;
+                border-radius: 15px;
+                background: #3f3d56;
+                color: #1f8150;
+                margin-top: 20px;
+
+                &:hover {
+                    background: rgb(5, 109, 10);
+                    color: #fff;
+                    transition: 2s ease-in-out;
+                }
+            }
+        }
+    }
+}
