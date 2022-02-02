@@ -1,0 +1,25 @@
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+.WeatherAPI {
+    background: $bg_color;
+    line-height: 90vh;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+
+    .WeatherInfo {
+        width: 100%;
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        color: cyan;
+    }
+
+    span {
+        color: #d81e9a;
+        font-weight: bold;
+    }
+}

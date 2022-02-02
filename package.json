@@ -16,10 +16,14 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
     "bootstrap": "^5.1.1",
     "framer-motion": "^5.3.1",
+    "gsap": "^3.8.0",
+    "jwt-decode": "^3.1.2",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-async": "^10.0.1",
     "react-bootstrap": "^2.0.0-rc.1",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -28,7 +32,10 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-swipeable-views": "^0.14.0",
     "styled-components": "^5.3.3",
+    "three": "^0.135.0",
+    "typed.js": "^2.0.12",
     "use-react-dimensions": "^2.0.1",
     "web-vitals": "^1.1.2"
   },
@@ -62,8 +69,6 @@
     "less": "^4.1.2",
     "less-watch-compiler": "^1.16.3",
     "postcss": "^7.0.39",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^4.9.1"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }

@@ -1,0 +1,16 @@
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+.CustomPage {
+    background: $bg_color;
+    height: 100wh;
+    padding: 2rem;
+    color: crimson;
+
+    h1 {
+        text-align: center;
+        color: crimson;
+    }
+
+}

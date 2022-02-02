@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import Navigation from '../../components/Portfolio/Navigation/Navigation';
+import MobileNavigation from '../../components/Portfolio/MobileNavigation/MobileNavigation';
 import Landing from '../../components/Portfolio/Landing/Landing';
 import About from '../../components/Portfolio/About/About';
-import ProjectFour from '../../components/Portfolio/CurrentProjects/CurrentProjects';
+import CurrentProjects from '../../components/Portfolio/CurrentProjects/CurrentProjects';
 import Projects from '../../components/Portfolio/Projects/Projects';
-import Footer from '../../components/Portfolio/Footer/Footer';
 import Contact from '../../components/Portfolio/Contact/Contact';
-import MobileNavigation from '../../components/Portfolio/MobileNavigation/MobileNavigation';
+import Footer from '../../components/Portfolio/Footer/Footer';
+import BookAPI from '../../components/Projects/BookAPI/BookAPI';
+// import SignIn from '../../components/Projects/BookAPI/SignIn';
+// import SignUp from '../../components/Projects/BookAPI/SignUp';
 
 
 const PortfolioApp = () => {
@@ -23,7 +26,7 @@ const PortfolioApp = () => {
             <Navigation toggle={toggle} />
             <Landing />
             <About />
-            <ProjectFour />
+            <CurrentProjects />
             <Projects />
             <Contact />
             <Footer />

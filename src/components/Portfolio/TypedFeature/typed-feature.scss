@@ -1,0 +1,19 @@
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+.TypedFeature {
+    background: $bg_color;
+    color: #2196f3;
+    text-align: center;
+
+    span {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 24px;
+    }
+
+    h1 {
+        color: #00e676;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+}

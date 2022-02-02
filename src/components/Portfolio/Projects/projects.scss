@@ -67,5 +67,48 @@
   /* height: calc(100vh - 10em); */
   scroll-snap-align: start;
   /* background-color: #ccc; */
-  font-size: 1.5rem;
+  font-size: 15px;
+
+  Card {
+    background: #4caf50;
+  }
+
+  img {
+    height: 150px;
+  }
+}
+
+.Card {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  height: 100%;
+  width: 30rem;
+  padding: 20px 20px;
+  margin-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+
+  @media screen and (max-width: 768px) {
+    height: 100%;
+    padding-top: 20px;
+  }
+}
+
+.CardOne {
+  background: #4caf50;
+}
+
+.CardTwo {
+  background: #009688;
+}
+
+.CardThree {
+  background: #1769aa;
+}
+
+.CardFour {
+  background: #33eb91;
+}
+
+.CardFive {
+  background: #268062;
 }

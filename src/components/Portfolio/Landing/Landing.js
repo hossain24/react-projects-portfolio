@@ -6,7 +6,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 const Landing = () => {
     return (
         <>
-            <div className="Landing">
+            <div className="Landing" id="home">
                 <Container fluid="md" className="Container">
                     <Row>
                         <Col sm={8} className="Image-Section">
@@ -16,9 +16,10 @@ const Landing = () => {
                             <h1>Hossain Ahmad</h1>
                             <h4>IT Engineer & Developer</h4>
                             <br />
-                            <p>I do develop both the Frontend & Backend of a Web Application using various tools & technologies</p>
+                            <p>I do develop both the Frontend & Backend of Web Application using various tools & technologies</p>
                         </Col>
                     </Row>
+
                 </Container>
             </div>
         </>

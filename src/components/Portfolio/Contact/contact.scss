@@ -16,12 +16,16 @@ $bg-color: linear-gradient(108deg,
 
     .Image-Info {
         padding-top: 20px;
+
+        img {
+            height: 450px;
+        }
     }
 
     .Contact-Info {
         color: #1f8150;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 3rem;
 
         h2 {
             font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;

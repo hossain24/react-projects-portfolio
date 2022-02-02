@@ -1,0 +1,29 @@
+.ProjectsNav {
+    background: linear-gradient(108deg,
+            rgba(1, 43, 36, 49) 0%,
+            rgba(43, 36, 49, 1) 100%);
+    height: 10vh;
+    text-align: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        margin-inline-end: 2rem;
+    }
+
+
+    .ProjectsLink {
+        a {
+            color: crimson;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+
+
+}

@@ -56,11 +56,6 @@ const Navigation = ({ toggle }) => {
                             <FaBars />
                         </MobileIcon>
                     </div>
-                    <button className="Navigation-Toggle icon"
-                        aria-controls="Navigation"
-                        aria-expanded="false">
-                        <span className="sr-only"></span>
-                    </button>
                     <div className="Navigation" id="Navigation" data-visible="false">
                         <ul>
                             <li><Link to="about" className="Link">About</Link></li>

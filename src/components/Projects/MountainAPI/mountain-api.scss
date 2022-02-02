@@ -1,0 +1,13 @@
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+;
+
+.MountainAPI {
+    background: $bg_color;
+    color: cyan;
+    height: 100%;
+    margin: 0;
+    padding: 5rem 5rem;
+    position: relative;
+}
