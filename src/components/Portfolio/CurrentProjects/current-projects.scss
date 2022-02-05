@@ -2,11 +2,13 @@ $bg-color: linear-gradient(108deg,
     rgba(1, 43, 36, 49) 0%,
     rgba(43, 36, 49, 1) 100%);
 
+$bg_color2: #4d3710;
+
 .CurrentProjects {
     height: 100%;
     width: 100%;
     padding: 20px 0;
-    background: $bg-color;
+    background: $bg-color2;
 
 
     h1 {

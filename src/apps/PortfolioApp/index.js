@@ -7,7 +7,7 @@ import CurrentProjects from '../../components/Portfolio/CurrentProjects/CurrentP
 import Projects from '../../components/Portfolio/Projects/Projects';
 import Contact from '../../components/Portfolio/Contact/Contact';
 import Footer from '../../components/Portfolio/Footer/Footer';
-import BookAPI from '../../components/Projects/BookAPI/BookAPI';
+// import BookAPI from '../../components/Projects/BookAPI/BookAPI';
 // import SignIn from '../../components/Projects/BookAPI/SignIn';
 // import SignUp from '../../components/Projects/BookAPI/SignUp';
 

@@ -1,7 +1,11 @@
+$bg-color: linear-gradient(108deg,
+  rgba(1, 43, 36, 49) 0%,
+  rgba(43, 36, 49, 1) 100%);
+
+$bg_color2: #4d3710;
+
 .Projects {
-  background: linear-gradient(-108deg,
-      rgba(43, 36, 49, 1) 0%,
-      rgba(1, 43, 36, 49) 100%);
+  background: $bg_color2;
   padding-top: 70px;
 
   h1 {
