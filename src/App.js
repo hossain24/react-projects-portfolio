@@ -8,6 +8,7 @@ import SignIn from './components/Projects/BookAPI/SignIn';
 import SignUp from './components/Projects/BookAPI/SignUp';
 import OrderList from './components/Projects/BookAPI/OrderList';
 import Dashboard from './components/Projects/Profile/Dashboard/Dashboard';
+import BookAPI from './components/Projects/BookAPI/BookAPI';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<PortfolioApp />} exact />
         <Route path='/mountain-api' element={<MountainAPI />} exact />
         <Route path='/weather-api' element={<WeatherAPI />} exact />
+        <Route path='/book-api' element={<BookAPI />} exact />
         <Route path='/order-list' element={<OrderList />} exact />
         <Route path="/private" element={<Private />} />
         <Route path="/signin" element={<SignIn />} />

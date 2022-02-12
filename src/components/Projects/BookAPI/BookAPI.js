@@ -16,7 +16,7 @@ const BookAPI = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('http://localhost:5000/books');
+            const response = await fetch('https://node-webshop-api.herokuapp.com/books');
             const books = await response.json();
             console.log(books);
             setBooks(books);
